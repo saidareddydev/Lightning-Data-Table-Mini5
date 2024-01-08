@@ -54,9 +54,12 @@ export default class EditDataTableRows_HA extends LightningElement {
     draftValues = [];
     contactRefrshProp;
     leadSourceOptions = [];
-    viewMode = false;
-    editMode = false;
-    showModal = false;
+   // viewMode = false;
+   // editMode = false;
+    //showModal = false;
+    isModalOpen = false;
+    isEditMode = false;
+    isDisplayMode = false
     selectedRecordId;
     leadSourceActions = [];
     loadActionCompleted = false;
